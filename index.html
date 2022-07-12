@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js"></script>
+    <title>ToDo List with Drag and Drop</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="sidebar">
+            <h3>Lista de tarefas</h3>
+            <form class="form" id="form">
+                <input type="text" placeholder="Nova tarefa" class="new-task" id="new-task" autofocus>
+                <div class="root" id="root" draggable="true"></div>
+            </form>
+        </div>
+
+        <main class="main">
+            <div class="container">
+                <h3>Em progresso</h3>
+            </div>
+
+            <div class="container">
+                <h3>Sob Revisão</h3>
+            </div>
+
+            <div class="container">
+                <h3>Tarefa concluída 💪</h3>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
