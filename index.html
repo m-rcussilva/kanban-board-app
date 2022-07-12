@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="./js/app.js" defer></script>
     <title>ToDo List with Drag and Drop</title>
 </head>
 
@@ -16,7 +17,7 @@
             <h3>Lista de tarefas</h3>
             <form class="form" id="form">
                 <input type="text" placeholder="Nova tarefa" class="new-task" id="new-task" autofocus>
-                <div class="root" id="root" draggable="true"></div>
+                <ul class="root" id="root" draggable="true"></ul>
             </form>
         </div>
 
@@ -26,7 +27,7 @@
             </div>
 
             <div class="container">
-                <h3>Sob Revisão</h3>
+                <h3>Sob revisão</h3>
             </div>
 
             <div class="container">
