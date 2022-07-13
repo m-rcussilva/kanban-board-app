@@ -4,7 +4,7 @@ const root = document.getElementById("root");
 
 const generateTemplate = (task) => {
     const htmlTemplate = `
-        <li class="task-li">
+        <li class="task-li" id="task-li" draggable="true">
             ${task}
             <i class="fa-solid fa-xmark" title="Apagar tarefa"></i>
         </li>
