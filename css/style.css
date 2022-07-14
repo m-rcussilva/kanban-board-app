@@ -28,22 +28,9 @@ body {
     line-height: 1.5;
 }
 
-* {
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 ul {
     list-style: none;
     padding-left: 0;
-}
-
-.grid-container {
-    display: grid;
-    grid-gap: 10px;
 }
 
 .sidebar {
@@ -112,6 +99,8 @@ ul {
     cursor: move;
     transition: 0.1s ease-out;
     position: relative;
+    list-style: none;
+    text-align: justify;
 }
 
 .task-li:hover {

@@ -1,7 +1,7 @@
 const containers = document.querySelectorAll(".container");
-const taskli = document.querySelectorAll(".task-li");
+const rootContainer = document.querySelectorAll(".rootContainer");
 
-taskli.forEach((r) => {
+rootContainer.forEach((r) => {
     r.addEventListener("dragstart", (e) => {
         e.dataTransfer.setData("text/plain", e.target.id);
     });

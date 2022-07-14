@@ -19,7 +19,7 @@ form.addEventListener("submit", (e) => {
     const task = newTask.value.trim();
 
     if (!task) {
-        alert("O campo 'Nova tarefa' parece estar vazio. Por favor, adicione uma mensagem.");
+        alert("O campo 'Nova tarefa' parece estar vazio. Por favor, adicione uma tarefa.");
         return;
     }
 
